@@ -39,7 +39,7 @@ limit 1
  $res_data =pg_query($conn, $sql_data);
      $row_data =pg_fetch_assoc($res_data);
      $_session['user_id'] = $row_data['id'];
-     $_session['user_id'] = $row_data['firstname'];
+     $_session['user_name'] = $row_data['firstname'];
         header('refresh:0; URL:http://localhost/pet-store/src/');
     }else{
         echo"<script>alert('lgin  failed !!!');</script>";
