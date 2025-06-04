@@ -1,18 +1,18 @@
 <?php   
-/*Supabase db connecttion
+//Supabase db connecttion
 $host = 'aws-0-us-east-1.pooler.supabase.com';
 $port = '5432';
-$dbname = 'petstore';
+$dbname = 'postgres';
 $username = 'postgres.ihxbvczkmuxyafflyeku';
 $password = 'unicesmag@@';
-*/
- //Settings database
+
+ /*Settings database
 $host = 'localhost';
 $port = '5432';
 $dbname = 'petstore';
 $username = 'postgres';
 $password = 'unicesmag';
-
+*/
 // Connection string
 // Connection string
 $data_connection = "
